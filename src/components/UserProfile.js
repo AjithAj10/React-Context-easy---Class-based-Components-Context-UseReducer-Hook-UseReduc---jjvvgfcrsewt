@@ -6,7 +6,7 @@ const UserProfile = (props) =>{
     
   return(  <>
 <h1 id="name">Name:- {props.value.name}</h1>
-<h1 id="age">Age:- e{props.value.age}</h1>
+<h1 id="age">Age:- {props.value.age}</h1>
     </>
   )
 }
